@@ -17,8 +17,7 @@
     <uri>model://arenawalls</uri>
     <pose>0 0 0 0 0 0</pose>
   </include>
-   
-   <!-- blue box + 4 orange blocks -->
+
   <include>
     <uri>model://blue_box_2</uri>
     <pose>-.6 .6 0 0 0 0</pose>
@@ -27,137 +26,149 @@
 
   <include>
     <uri>model://orange_block_0</uri>
-    <pose>-.6 .691 .224 0 0 0</pose>
+    <pose>-.6 .668753 .224 0 0 0</pose>
+  </include>
+
+  <include>
+    <uri>model://orange_block_oppo</uri>
+    <pose>-.531247 .6 .224 0 0 0</pose>
   </include>
 
   <include>
     <uri>model://orange_block_0</uri>
-    <pose>-.509 .6 .224 0 0 0</pose>
+    <pose>-.6 .484982 .224 0 0 0</pose>
   </include>
 
   <include>
-    <uri>model://orange_block_0</uri>
-    <pose>-.6 .509 .224 0 0 0</pose>
+    <uri>model://orange_block_oppo</uri>
+    <pose>-.715018 .6 .224 0 0 0</pose>
   </include>
 
-  <include>
-    <uri>model://orange_block_0</uri>
-    <pose>-.691 .6 .224 0 0 0</pose>
-  </include>
 
-  <!-- orange box + 4 yellow blocks -->
 
-  <include>
+
+
+      <include>
     <uri>model://orange_box_0</uri>
     <pose>.4 .8 0 0 0 0</pose>
   </include>
 
-
   <include>
     <uri>model://yellow_block_0</uri>
-    <pose>.4 .891 .224 0 0 0</pose>
+    <pose>.4 .868753 .224 0 0 0</pose>
+  </include>
+  <include>
+    <uri>model://yellow_block_oppo</uri>
+    <pose>.468753 .8 .224 0 0 0</pose>
   </include>
   <include>
     <uri>model://yellow_block_0</uri>
-    <pose>.491 .8 .224 0 0 0</pose>
+    <pose>.4 .685 .224 0 0 0</pose>
   </include>
   <include>
-    <uri>model://yellow_block_0</uri>
-    <pose>.4 .709 .224 0 0 0</pose>
+    <uri>model://yellow_block_oppo</uri>
+    <pose>.284982 .8 .224 0 0 0</pose>
   </include>
-  <include>
-    <uri>model://yellow_block_0</uri>
-    <pose>.309 .8 .224 0 0 0</pose>
-  </include>
-
-  
-  <!-- green box + 4 red blocks -->
 
     <include>
     <uri>model://green_box_0</uri>
     <pose>0 .2 0 0 0 0</pose>
   </include>
 
-
     <include>
     <uri>model://red_block_2</uri>
-    <pose>0 .291 .224 0 0 0</pose>
+    <pose>0 .268753 .224 0 0 0</pose>
+  </include>
+      <include>
+    <uri>model://red_block_oppo</uri>
+    <pose>0.068753 .2 .224 0 0 0</pose>
   </include>
       <include>
     <uri>model://red_block_2</uri>
-    <pose>0.091 .2 .224 0 0 0</pose>
+    <pose>0 .085 .224 0 0 0</pose>
   </include>
       <include>
-    <uri>model://red_block_2</uri>
-    <pose>0 .109 .224 0 0 0</pose>
+    <uri>model://red_block_oppo</uri>
+    <pose> -.115018 .2 .224 0 0 0</pose>
   </include>
-      <include>
-    <uri>model://red_block_2</uri>
-    <pose>-.091 .2 .224 0 0 0</pose>
-  </include>
- 
-  <!-- red box + 4 green blocks -->
+
 
     <include>
     <uri>model://red_box_1</uri>
     <pose>.8 -.2 0 0 0 0</pose>
   </include>
 
-
-  <include>
+      <include>
     <uri>model://green_block</uri>
-    <pose>.8 -.109 .224 0 0 0</pose>
+    <pose>.8 -.315 .224 0 0 0</pose>
   </include>
 
-  <include>
-    <uri>model://green_block</uri>
-    <pose>.891 -.2 .224 0 0 0</pose>
+      <include>
+    <uri>model://green_block_oppo</uri>
+    <pose>.868753 -.2 .224 0 0 0</pose>
   </include>
 
-  <include>
+      <include>
     <uri>model://green_block</uri>
-    <pose>.8 -.291 .224 0 0 0</pose>
+    <pose>.8 -.134 .224 0 0 0</pose>
   </include>
 
-  <include>
-    <uri>model://green_block</uri>
-    <pose>.709 -.2 .224 0 0 0</pose>
+      <include>
+    <uri>model://green_block_oppo</uri>
+    <pose>.684982 -.2 .224 0 0 0</pose>
   </include>
 
-  <!-- yellow box + 4 lue blocks -->
 
-  <include>
+
+    <include>
     <uri>model://yellow_box_0</uri>
     <pose>-.6 -.5 0 0 0 0</pose>
   </include>
-
   
-  <include>
-    <uri>model://blue_block_2</uri>
-    <pose>-.6 -.409 .224 0 0 0</pose>
+     <include>
+    <uri>model://blue_block</uri>
+    <pose>-.6 -.615018 .224 0 0 0</pose>
   </include>
-  <include>
-    <uri>model://blue_block_2</uri>
-    <pose>-.509 -.5 .224 0 0 0</pose>
+       <include>
+    <uri>model://blue_block_oppo</uri>
+    <pose>-.668753 -.5 .224 0 0 0</pose>
   </include>
-  <include>
-    <uri>model://blue_block_2</uri>
-    <pose>-.6 -.591 .224 0 0 0</pose>
+       <include>
+    <uri>model://blue_block</uri>
+    <pose>-.6 -.431247 .224 0 0 0</pose>
   </include>
-  <include>
-    <uri>model://blue_block_2</uri>
-    <pose>-.691 -.5 .224 0 0 0</pose>
+       <include>
+    <uri>model://blue_block_oppo</uri>
+    <pose>-.484982 -.5 .224 0 0 0</pose>
   </include>
 
 
-   <!-- parking zone -->
-   
     <include>
     <uri>model://parking_zone</uri>
     <pose>.2 -.4 0 0 0 -2.44</pose>
   </include>
 
+    <!-- <include>
+    <uri>model://arenawalls</uri>
+    <pose>0 0 0 0 0 0</pose>
+  </include>
+
+    <include>
+    <uri>model://arenawalls</uri>
+    <pose>0 0 0 0 0 0</pose>
+  </include>
+
+    <include>
+    <uri>model://arenawalls</uri>
+    <pose>0 0 0 0 0 0</pose>
+  </include> -->
+
+
+
+
+
+
+
 
   </world>
 </sdf>
-
