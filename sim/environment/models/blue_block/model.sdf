@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='blue_block_2'>
-    <link name='link_5'>
+  <model name='blue_block'>
+    <link name='link_0'>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <inertial>
         <mass>1</mass>
@@ -15,15 +15,15 @@
         </inertia>
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
+      <gravity>0</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>0</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shivang/Music/wro.stl</uri>
-            <scale>.048 .048 .048</scale>
+            <uri>model://mesh/wro.stl</uri>
+            <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <material>
@@ -49,7 +49,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shivang/Music/wro.stl</uri>
+            <uri>model://mesh/wro.stl</uri>
           </mesh>
         </geometry>
         <surface>

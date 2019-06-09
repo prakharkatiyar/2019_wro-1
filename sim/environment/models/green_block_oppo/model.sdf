@@ -1,8 +1,8 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='yellow_block_0'>
+  <model name='green_block_oppo'>
     <link name='link_1'>
-      <pose frame=''>0 0 0 0 -0 0</pose>
+      <pose frame=''>0 0 0 0 -0 -1.5708</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -13,7 +13,7 @@
           <iyz>0</iyz>
           <izz>0.166667</izz>
         </inertia>
-        <pose frame=''>0 0 0.224 0 -0 0</pose>
+        <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
@@ -32,9 +32,9 @@
             <uri>file://media/materials/scripts/gazebo.material</uri>
             <name>Gazebo/Grey</name>
           </script>
-          <ambient>0.996 0.914 0 1</ambient>
-          <diffuse>0.996 0.914 0 1</diffuse>
-          <specular>0.996 0.914 0 1</specular>
+          <ambient>0.267 0.839 0.173 1</ambient>
+          <diffuse>0.267 0.839 0.173 1</diffuse>
+          <specular>0.267 0.839 0.173 1</specular>
           <emissive>0 0 0 1</emissive>
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
