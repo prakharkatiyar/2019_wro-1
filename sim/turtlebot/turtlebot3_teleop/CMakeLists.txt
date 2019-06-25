@@ -41,6 +41,7 @@ catkin_package(
 ################################################################################
 catkin_install_python(PROGRAMS
   nodes/turtlebot3_teleop_key
+  setup.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
@@ -51,3 +52,5 @@ install(DIRECTORY launch
 ################################################################################
 # Test
 ################################################################################
+
+
