@@ -1,0 +1,6 @@
+
+final launch file contained in wro_nav
+  wro_nav.launch
+
+for sending goal to move_base (inside wro_nav)
+  send_goal.cpp 
